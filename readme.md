@@ -1,1 +1,1 @@
-https://arkadiuszmyszka.github.io/goit-markup-hw-01/
+https://arkadiuszmyszka.github.io/goit-js-hw-06/
