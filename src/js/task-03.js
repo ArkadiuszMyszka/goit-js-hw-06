@@ -22,3 +22,10 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+const galleryNew = document.querySelector('ul');
+const addImg = images
+  .map((image) => `<li class ="image" display = "flex"> <img src="${image.url}" alt:"${image.alt}"/></li>`)
+  .join("");
+galleryNew.insertAdjacentHTML('afterbegin', addImg);
+galleryNew.style.display = "flex";
+
