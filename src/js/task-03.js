@@ -1,3 +1,13 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable quotes */
+/* eslint-disable no-console */
+/* eslint-disable strict */
+/* eslint-disable indent */
+/* eslint-disable no-multiple-empty-lines */
+/* eslint-disable linebreak-style */
+
+'use strict';
+
 const images = [
   {
     url: 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
