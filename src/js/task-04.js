@@ -17,23 +17,11 @@ function increment() {
     const currentValue = counterValue + 1;
     counterValue = currentValue;
     value.textContent = counterValue;
-    console.log(currentValue);
-}
+    }
 function decrement() {
     const currentValue = counterValue - 1;
     counterValue = currentValue;
     value.textContent = counterValue;
-    console.log(currentValue);
-}
+    }
 buttonIncrement.addEventListener("click", increment);
 buttonDecrement.addEventListener("click", decrement);
-
-
-
-
-
-
-
-console.log(`------------------------------------`);
-console.log(counterValue);
-console.log(buttonIncrement.dataset.action);
