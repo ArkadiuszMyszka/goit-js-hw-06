@@ -7,3 +7,15 @@
 /* eslint-disable linebreak-style */
 
 'use strict';
+
+const input = document.querySelector('#name-input');
+const text = document.querySelector('#name-output');
+
+input.addEventListener("keyup", () => {
+    if (input.value === "") {
+        text.textContent = "Anonymous";
+    } else {
+        text.textContent = input.value;
+    }
+   });
+
