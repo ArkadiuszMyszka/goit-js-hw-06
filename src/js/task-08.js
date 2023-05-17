@@ -20,6 +20,7 @@ function handleSubmit(a) {
     } = a.currentTarget;
 
     if (email.value === "" || password.value === "") {
+        // eslint-disable-next-line no-alert
         alert("Uzupełnij pola!");
     } else {
          object.email = email.value;
