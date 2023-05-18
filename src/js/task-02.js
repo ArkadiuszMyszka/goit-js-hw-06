@@ -21,11 +21,11 @@ const ingredients = [
 //   console.log(ingredients[i]);
 // }
 const elUl = document.querySelector("#ingredients");
+const array = [];
 ingredients.forEach((a) => {
   const elLi = document.createElement('li');
   elLi.textContent = a;
   elLi.classList.add('item');
-  elUl.append(elLi);
-  // console.log(a);
+  array.push(elLi);
 });
-
+elUl.append(...array);
